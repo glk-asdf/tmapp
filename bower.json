@@ -1,0 +1,25 @@
+{
+  "name": "tmapp",
+  "homepage": "https://github.com/glk-asdf/tmapp",
+  "authors": [
+    "glk-asdf <895947135@qq.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "bootstrap": "^3.3.6",
+    "Materialize": "materialize#^0.97.6",
+    "Swiper": "swiper#^3.3.1",
+    "Touch": "touch#^0.0.1",
+    "zepto": "^1.1.6"
+  }
+}
