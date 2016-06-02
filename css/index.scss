@@ -1,0 +1,11 @@
+%public{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+html{
+	@extend %public;
+	@media screen and (min-width: 320px){
+
+	}
+}
