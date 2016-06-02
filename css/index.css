@@ -1,5 +1,16 @@
-html {
-  padding: 0;
-  margin: 0;
-  border: 0;
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 360px;
+  }
+}
+
+body {
+  /*@extend %public;*/
+  height: 1000px;
+  font-size: 12px;
+  font-family: Helvetica,sans-serif;
+}
+
+.action {
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7), transparent);
 }
