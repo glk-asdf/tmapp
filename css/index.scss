@@ -4,16 +4,77 @@
 	border: 0;
 }
 html{
-	@media screen and (min-width: 320px){
-		font-size:360px;
+	/*font-size: 360px;*/
+	@media screen and(min-width: 320px){
+		font-size:320*100px/360;
+	};
+	@media screen and(min-width: 360px){
+		font-size:100px;
+	};
+	@media screen and(min-width: 375px){
+		font-size:375*100px/360;
+	}
+	@media screen and(min-width: 385px){
+		font-size:385*100px/360;
+	}
+	@media screen and(min-width: 414px){
+		font-size:414*100px/360;
+	}
+	@media screen and(min-width: 480px){
+		font-size:480*100px/360;
 	}
 }
 body{
 	/*@extend %public;*/
-	height: 1000px;	
-	font-size: 12px;
+	/*height: 1000px;	*/
+	/*font-size: 12px;*/
 	font-family: Helvetica,sans-serif;
 }
 .action{
 	background-image:-webkit-linear-gradient(top,rgba(0,0,0,.7),rgba(0,0,0,0));
+}
+.header{
+	width: 100%;
+	height: 45px;
+	background-image:-webkit-linear-gradient(top,rgba(0,0,0,.7),rgba(0,0,0,0));
+	background-image: linear-gradient(top,rgba(0,0,0,0.7),rgba(0,0,0,0));
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	.hmenu{
+		height: 45px;
+		width: 25px;
+		margin-left: 18px;
+		float: left;
+		background: url(../image/hmenu.png) no-repeat 2px 6px;
+		background-size: 282px 31px;
+	}
+	.itext{
+		float: left;
+		/*height: 45px;*/
+		margin: 6px 18px 0;
+		flex:auto;
+		-webkit-flex:auto;
+		position: relative;
+		.intet{
+			height: 33px;
+			color: #999;
+			line-height: 33px;
+			border-radius: 2px;
+			padding-left: 10px;
+			font-size: 14px;
+			opacity: 0.9;
+			background-color: #fff; 
+		}
+		.sosuo{
+			position: absolute;
+			top: 0;
+			right: 10px;
+			width: 20px;
+			height: 30px;
+			background: url(../image/hmenu.png) no-repeat -82px 2px;
+			background-size: 282px 31px;
+		}
+	}
 }
