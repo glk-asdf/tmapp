@@ -1,3 +1,39 @@
+body, ul, li {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.with-5 .col-with {
+  width: 20%;
+  float: left;
+}
+
+.with-6 .col-with {
+  width: 16.66667%;
+  float: left;
+}
+
+.with-7 .col-with {
+  width: 14.28571%;
+  float: left;
+}
+
+.with-8 .col-with {
+  width: 12.5%;
+  float: left;
+}
+
+.with-9 .col-with {
+  width: 11.11111%;
+  float: left;
+}
+
+.with-10 .col-with {
+  width: 10%;
+  float: left;
+}
+
 html {
   /*font-size: 360px;*/
 }
@@ -39,10 +75,22 @@ html {
 }
 
 body {
-  /*@extend %public;*/
   /*height: 1000px;	*/
-  /*font-size: 12px;*/
+  font-size: 12px;
+  line-height: normal;
   font-family: Helvetica,sans-serif;
+  background-color: #f0f0f0 !important;
+}
+
+ul, li {
+  list-style: none;
+}
+
+/*img{
+	@extend %public;
+}*/
+a {
+  text-decoration: none;
 }
 
 .action {
@@ -52,6 +100,10 @@ body {
 .header {
   width: 100%;
   height: 45px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7), transparent);
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.7), transparent);
   display: -webkit-flex;
@@ -97,4 +149,103 @@ body {
   height: 30px;
   background: url(../image/hmenu.png) no-repeat -82px 2px;
   background-size: 282px 31px;
+}
+
+.bannerg {
+  width: 100%;
+  height: 1.74rem;
+}
+
+.bannerg a {
+  display: block;
+}
+
+.imiao {
+  background-color: #fff;
+  display: block;
+  height: 1.07rem;
+}
+
+.jifen {
+  height: 71px;
+  background-color: #fff;
+}
+
+.jifen .col-with a {
+  padding: 4px;
+  margin: 4px;
+  display: block;
+  text-align: center;
+  color: #051B28;
+}
+
+.jifen .col-with a img {
+  margin: 0 auto 5px;
+  display: block;
+}
+
+.jifen2 {
+  height: 63px;
+  background-color: #fff;
+}
+
+.jifen2 .col-with a {
+  margin: 4px;
+  display: block;
+  text-align: center;
+  color: #051B28;
+}
+
+.jifen2 .col-with a img {
+  margin: 0 auto 5px;
+  display: block;
+}
+
+.hotdian {
+  width: 100%;
+  height: 59px;
+  padding: 10px 0 9px;
+  margin-top: 1px;
+  background-color: #fff;
+  position: relative;
+}
+
+.hotdian img:nth-child(1) {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  padding: 0 5px 0 7px;
+  border-right: 1px solid #e7e7e7;
+}
+
+.hotdian img:nth-child(2) {
+  position: absolute;
+  top: 20px;
+  left: 77px;
+}
+
+.hotdian .xlx {
+  /*width: 100%;*/
+  padding-left: 102px;
+  height: 40px;
+}
+
+.hotdian .xlx div {
+  height: 18px;
+  color: #000;
+}
+
+.hotdian .xlx span {
+  color: #ff2f2f;
+  height: 18px;
+  line-height: 18px;
+}
+
+.qiang {
+  width: 100%;
+  display: block;
+}
+
+.qiang img {
+  width: 100%;
 }
