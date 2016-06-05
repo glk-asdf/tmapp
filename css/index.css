@@ -1,4 +1,4 @@
-body, ul, li {
+body, ul, li, .jcz, .jcz li {
   padding: 0;
   margin: 0;
   border: 0;
@@ -248,4 +248,85 @@ a {
 
 .qiang img {
   width: 100%;
+}
+
+.zhibo {
+  width: 100%;
+  overflow: hidden;
+  height: 1.11rem;
+}
+
+.zhibo .live {
+  width: 50%;
+  float: left;
+}
+
+.biqiang {
+  width: 100%;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.biqiang span:nth-child(1) {
+  border-color: #F6B7B7;
+  margin-right: 6px;
+  display: inline-block;
+  border-bottom: 1px solid;
+  width: 34px;
+  margin-bottom: 5px;
+  color: #F6B7B7;
+}
+
+.biqiang span:nth-child(3) {
+  color: #FF2E2E;
+  font-size: 14px;
+}
+
+.biqiang span:nth-child(4) {
+  border-color: #F6B7B7;
+  margin-left: 6px;
+  display: inline-block;
+  border-bottom: 1px solid;
+  width: 34px;
+  margin-bottom: 5px;
+  color: #F6B7B7;
+}
+
+.jcz {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.jcz div {
+  color: #2F2F2F;
+}
+
+.jcz img {
+  width: 84%;
+  display: block;
+  margin: 8px auto;
+}
+
+.jcz span:nth-child(3) {
+  color: #ff2e2e;
+  font-size: 10px;
+  height: 14px;
+  line-height: 14px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.jcz span:nth-child(4) {
+  text-decoration: line-through;
+  color: #9b9b9b;
+  font-size: 10px;
+  height: 14px;
+  line-height: 14px;
+  display: inline-block;
+  margin-bottom: 8px;
+  padding-right: 1px;
+  margin-left: 2px;
 }
